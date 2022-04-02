@@ -1,0 +1,44 @@
+b {
+    margin: 200px;
+    padding: 400px;
+    margin: 200px;
+}
+
+
+#gameBox { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px; 
+    height: 500px;
+   
+}
+
+#firstDiv {
+    height: 200px;
+    width: 800px;
+    
+}
+
+#secDiv {
+    font-weight: 900;
+    height: 20px;
+    width: 800px;
+}
+
+p {
+height: 200px;
+width: 800px;
+}
+
+#firButton {
+    background-color:green;
+}
+
+#secButton {
+    background-color: blue;
+}
+
+#thiButton {
+    background-color: red;
+}
