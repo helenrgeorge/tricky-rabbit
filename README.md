@@ -12,5 +12,5 @@ I now need to do the following:
 
 2. Change color of winning score to green and losing score to red
 
-3. No longer allow scores to be added after winner annou
+3. No longer allow scores to be added after winner is announced
 
