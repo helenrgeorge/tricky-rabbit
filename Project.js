@@ -1,10 +1,18 @@
-
 const firButton = document.getElementById("firButton")
 const secButton = document.getElementById("secButton")
 const thirButton = document.getElementById("thirButton")
 
 let userOnescore = 0
 let userTwoscore = 0
+
+function findWinner (userOnescore, userTwoscore, MaxScore) {
+    if ( userTwoscore >= MaxScore) {
+        alert("User Two is the winner")
+    }
+    if( userOnescore >= MaxScore) {
+        alert("User One is the winner")
+    }
+}
 
 const H1 = document.getElementById("buttons")
 
@@ -23,23 +31,20 @@ numb.addEventListener("change", function (e) {
 })
 
 firButton.addEventListener("click", function() {
-    
     userOnescore = userOnescore + 1
     H1.innerText = userOnescore + " to " + userTwoscore
-    if (userOnescore >= MaxScore) { 
-        .style.color = "red"
-        userOnescore.style.color = "green"
-        alert("User One Wins!") 
+    if (userOnescore || userTwoscore > MaxScore) {
+        findWinner(userOnescore, userTwoscore, MaxScore)
     }
+
 })
 
 secButton.addEventListener("click", function() {
+   
     userTwoscore = userTwoscore + 1
     H1.innerText = userOnescore + " to " + userTwoscore
-    if (userTwoscore >= MaxScore) { 
-        userTwoscore.style.color = "red"
-        userOnescore.style.color = "green"
-        alert("User One Wins!") 
+    if (userOnescore || userTwoscore > MaxScore) {
+    findWinner(userOnescore, userTwoscore, MaxScore)
     }
     })
 
