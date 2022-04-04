@@ -1,7 +1,8 @@
-b {
-    margin: 200px;
-    padding: 400px;
-    margin: 200px;
+b { 
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -9,26 +10,42 @@ b {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 800px; 
-    height: 500px;
+    width: 400px; 
+    height: 800px;
+    
    
+}
+h2 {
+    white-space: nowrap;
+}
+
+#numb {
+    display: inline-block;
 }
 
 #firstDiv {
     height: 200px;
-    width: 800px;
+    width: 100%;
     
+}
+img {
+    height: 200px;
+    width: 350px;
 }
 
 #secDiv {
     font-weight: 900;
     height: 20px;
-    width: 800px;
+    width: 100%;
+}
+#thirDiv {
+    
+    height: 400px;
+    width: 100%;
 }
 
-p {
-height: 200px;
-width: 800px;
+#actualButtons {
+    display: flex;
 }
 
 #firButton {
